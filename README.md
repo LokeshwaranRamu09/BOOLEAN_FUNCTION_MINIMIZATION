@@ -1,9 +1,11 @@
 
 #### NAME        :R.LOKESHWARAN
 #### REF NO      :24011606  
-## EXPERIMENT  :BOOLEAN FUNTION IMPLEMENTATION
 
-#### AIM
+# EXPERIMENT  :BOOLEAN FUNTION IMPLEMENTATION </br>
+
+
+# AIM
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
@@ -11,11 +13,11 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-##### EQUIPMENTS REQUIRED 
+# EQUIPMENTS REQUIRED 
 Hardware – PCs, Cyclone II , USB flasher 
 Software – Quartus prime
 
-#### THEORY
+# THEORY
 Implementing Boolean functions in Quartus using Verilog programming involves a systematic approach to design, synthesize, and verify digital logic functions. Here, we’ll cover the theoretical background and implementation of Boolean functions using Verilog, focusing on the functions:
 
 𝐹1=𝐴′𝐵′𝐶′𝐷′+𝐴𝐶′𝐷′+𝐵′𝐶𝐷′+𝐴′𝐵𝐶𝐷+𝐵𝐶′𝐷 𝐹2=𝑥𝑦′𝑧+𝑥′𝑦′𝑧+𝑤′𝑥𝑦+𝑤𝑥′𝑦+𝑤𝑥𝑦
@@ -60,7 +62,7 @@ Verify Results: Compare the output waveforms against the expected values to conf
 
 Conclusion: By using Quartus and Verilog programming, we can efficiently design, implement, and verify Boolean functions like F1 and F2. Quartus provides a platform for synthesizing the Verilog code into hardware, while simulation allows us to test and ensure that the functions behave as expected across all input combinations. This approach is essential for designing reliable digital systems.
 
-#### PROCEDURE 
+# PROCEDURE 
 
 1.	Type the program in Quartus software.
 
@@ -73,9 +75,9 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 5.	For different input combinations generate the timing diagram.
 
 
-#### PROGRAM
-##### module BOOLEANFUNCTIONMINIMIZATION (a,b,c,d,w,x,y,z,f1,f2);
-##### input a,b,c,d,w,x,y,z;
+# PROGRAM
+#### module BOOLEANFUNCTIONMINIMIZATION (a,b,c,d,w,x,y,z,f1,f2);
+#### input a,b,c,d,w,x,y,z;
 ##### output f1,f2;
 ##### wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
 ##### assign x1=(~a)&(~b)&(~c)&(~d);
@@ -92,18 +94,18 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 ##### assign f2=x6|x7|x8|x9|x10;
 ##### endmodule
 
-#### TRUTH TABLE
+# TRUTH TABLE
 
 ![WhatsApp Image 2024-11-07 at 01 33 21_272f6939](https://github.com/user-attachments/assets/6173506d-eb3f-4d80-bc66-c7d1827ab88e)
 
 ![WhatsApp Image 2024-11-07 at 01 32 59_b467b08d](https://github.com/user-attachments/assets/049670a4-8f06-459f-8d79-b91bad82e710)
 
-#### RTL OUTPUT 
+# RTL OUTPUT 
 
 ![Screenshot 2024-11-07 014749](https://github.com/user-attachments/assets/1c73b6c7-9f27-47b1-add7-c2e2a87afb81)
 
 
-#### OUTPUT WAVEFORM
+# OUTPUT WAVEFORM
 
 ![Screenshot 2024-11-07 014737](https://github.com/user-attachments/assets/a3b4e48e-fe7e-43f8-954b-35f7a77dd643)
 
