@@ -110,7 +110,7 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 ![Screenshot 2024-11-07 014737](https://github.com/user-attachments/assets/a3b4e48e-fe7e-43f8-954b-35f7a77dd643)
 
 
-#### RESULT
+# RESULT
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
