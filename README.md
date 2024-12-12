@@ -1,4 +1,3 @@
-
 ### NAME        :R.LOKESHWARAN
 ### REF NO      :24011606  
 
@@ -76,23 +75,39 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 
 
 # PROGRAM
-#### module BOOLEANFUNCTIONMINIMIZATION (a,b,c,d,w,x,y,z,f1,f2);
-#### input a,b,c,d,w,x,y,z;
-##### output f1,f2;
-##### wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
-##### assign x1=(~a)&(~b)&(~c)&(~d);
-##### assign x2=(a)&(~c)&(~d);
-##### assign x3=(~b)&(c)&(~d);
-##### assign x4=(~a)&(b)&(c)&(d);
-##### assign x5=(b)&(~c)&(d);
-##### assign x6=(x)&(~y)&(z);
-##### assign x7=(~x)&(~y)&(z);
-##### assign x8=(~w)&(x)&(y);
-##### assign x9=(w)&(~x)&(y);
-##### assign x10=(w)&(x)&(y);
-##### assign f1=x1|x2|x3|x4|x5;
-##### assign f2=x6|x7|x8|x9|x10;
-##### endmodule
+ module BOOLEANFUNCTIONMINIMIZATION (a,b,c,d,w,x,y,z,f1,f2);
+ 
+ input a,b,c,d,w,x,y,z;
+ 
+ output f1,f2;
+ 
+ wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
+ 
+ assign x1=(~a)&(~b)&(~c)&(~d);
+ 
+ assign x2=(a)&(~c)&(~d);
+
+ assign x3=(~b)&(c)&(~d);
+ 
+ assign x4=(~a)&(b)&(c)&(d);
+ 
+ assign x5=(b)&(~c)&(d);
+ 
+ assign x6=(x)&(~y)&(z);
+ 
+ assign x7=(~x)&(~y)&(z);
+ 
+ assign x8=(~w)&(x)&(y);
+ 
+ assign x9=(w)&(~x)&(y);
+ 
+ assign x10=(w)&(x)&(y);
+ 
+ assign f1=x1|x2|x3|x4|x5;
+ 
+ assign f2=x6|x7|x8|x9|x10;
+ 
+ endmodule
 
 # TRUTH TABLE
 
